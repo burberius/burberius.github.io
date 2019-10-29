@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: j.obi@troja.net
     phone:
-    website: ẃww.troja.net #do not add http://
+    website: troja.net #do not add http://
     linkedin: oberenderjens
     github: burberius
     gitlab:
@@ -184,7 +184,7 @@ skills:
       - name: Test Driven Development
         level: 90%
 
-      - name: HTML5 & CSS
+      - name: Maven
         level: 90%
 
       - name: HTML5 & CSS
