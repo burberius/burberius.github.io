@@ -3,18 +3,18 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Jens Oberender
+    name: JENS OBERENDER
     tagline: Senior Java Developer / DevOps Engineer
     avatar: burberius.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: j.obi@troja.net
-    phone:
-    website: troja.net #do not add http://
+    phone: +49 170 2094001
+    website: www.troja.net #do not add http://
     linkedin: oberenderjens
     xing: Jens_Oberender2
     github: burberius
@@ -33,13 +33,15 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Travelling
         link:
-
-      - item: Snowboarding
+      - item: Fishing
         link:
-
-      - item: Cooking
+      - item: Volleyball
+        link:
+      - item: Photographing
+        link:
+      - item: Movies
         link:
 
 career-profile:
@@ -54,49 +56,44 @@ career-profile:
       Second paragraph if required.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    - degree: Diploma Computer Science
+      university: Georg-Simon-Ohm-Fachhochschule
+      time: Nurnberg 2003 - 2008
+      details:
 
-          - Bullet point
-          - Bullet point
+    - degree: Diploma Computer Science (discontinued)
+      university: Friedrich-Alexander-Universität
+      time: Erlangen-Nurnberg 2000 - 2003
+      details:
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - degree: Military service
+      university: Holzdorf and Freising
+      time: 1999 - 2000
+      details:
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Java Developer / DevOps Engineer
+      time: 08/2019 - 11/2019
+      company: Pamyra GmbH
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
+        - Ongoing development of a microservice architektur based on Spring Boot and Kubernetes
+        - Extention of the logging and monitoring, based on the ELK stack
+        - Introduction of quality surveillance and raise of the test coverage
+        - Refinement of the development process
+      skills: |
+        - Spring Boot
+        - Maven
+        - MySQL
+        - Kafka
+        - Junit5
+        - TDD
+        - Jenkins
+        - Kibana
+        - GitLab
+        - SonarQube
+        - Docker
+        - Kubernetes
+        - JPA
 
     - role: Senior Software Engineer
       time: 2014 - 2015
@@ -173,44 +170,65 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Technics &amp; Tools
 
     toolset:
       - name: Java
-        level: 98%
-
-      - name: Spring Boot
-        level: 90%
-
-      - name: Test Driven Development
-        level: 90%
-
+        level: 95%
       - name: Maven
         level: 90%
-
+      - name: Linux Administration
+        level: 80%
+      - name: Spring Boot
+        level: 80%
       - name: HTML5 & CSS
         level: 80%
-
       - name: Jenkins
         level: 80%
-
-      - name: Shell
+      - name: Continious Integration
         level: 80%
-
-      - name: Linux Administration
+      - name: SonarQube
+        level: 80%
+      - name: Test Driven Development
         level: 70%
-
+      - name: MySQL
+        level: 70%
+      - name: Junit 5
+        level: 70%
+      - name: Mockito
+        level: 70%
+      - name: Logging Log4J2,SLF4J
+        level: 70%
+      - name: Shell Script
+        level: 70%
+      - name: Ansible
+        level: 60%
+      - name: Jenkins Pipeline
+        level: 60%
+      - name: GitLab CI
+        level: 60%
+      - name: Kibana
+        level: 60%
       - name: Docker
-        level: 70%
-
-      - name: Javascript
+        level: 60%
+      - name: ElasticSearch
         level: 50%
-
+      - name: Kafka
+        level: 50%
       - name: Kubernetes
-        level: 30%
-
+        level: 50%
+      - name: Google Public Cloud
+        level: 50%
+      - name: openAPI
+        level: 50%
+      - name: JavaScript
+        level: 40%
       - name: Angular
-        level: 30%
+        level: 40%
+      - name: Apache Flink
+        level: 40%
+      - name: Selenium
+        level: 40%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

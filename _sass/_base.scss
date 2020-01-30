@@ -50,7 +50,7 @@ p {
     .profile-container {
         padding: 30px;
         //background: darken($theme-color, 10%);
-        background: rgba(0, 0, 0, 0.2);
+        background: $theme-color-portrait;
         text-align: center;
         color: #fff;
     }
@@ -61,7 +61,7 @@ p {
         margin-bottom: 10px;
     }
     .tagline {
-        color: rgba(256, 256, 256, 0.6);
+        color: $tagline-color;
         font-size: 16px;
         font-weight: 400;
         margin-top: 0;
@@ -256,7 +256,23 @@ p {
     }
 }
 
-
+.skills {
+  ul {
+    list-style-type:none;
+    font-size: smaller;
+  }
+  li {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  li:before {
+    content: "\f046"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em;
+  }
+}
 
 
 .footer {
