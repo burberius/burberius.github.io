@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -44,16 +40,16 @@ sidebar:
       - item: Movies
         link:
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+#career-profile:
+#    title: Career Profile
+#    summary: |
+#      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#      adipiscing elit. You can [download this free resume/CV template here]().
+#      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#      Donec quam felis, ultricies nec, pellentesque eu.
+#
+#      Second paragraph if required.
 
 education:
     - degree: Diploma Computer Science
@@ -74,7 +70,7 @@ education:
 experiences:
     - role: Senior Java Developer / DevOps Engineer
       time: 08/2019 - 11/2019
-      company: Pamyra GmbH
+      company: '<a href="https://www.pamyra.de">Pamyra GmbH</a>'
       details: |
         - Ongoing development of a microservice architektur based on Spring Boot and Kubernetes
         - Extention of the logging and monitoring, based on the ELK stack
@@ -95,31 +91,157 @@ experiences:
         - Kubernetes
         - JPA
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Senior Java Developer / Project Owner
+      time: 05/2018 - 08/2019
+      company: '<a href="https://www.kiwigrid.com">Kiwigrid GmbH</a>'
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        - Analysed different requirements and worked out projects with the stakeholders accordingly
+        - Evaluated different alerting and stream processing frameworks for the projects
+        - Development of a driver to connect special customer hardware to the Energy Manager of Kiwigrid
+        - Installation of a cloud instanz in the Google Public Cloud using Kubernetes
+      skills: |
+        - PlantUML
+        - OpenAPI
+        - Lombok
+        - Maven
+        - Jenkins
+        - GitLab
+        - SonarQube
+        - Kubernetes
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Lead Java Developer
+      time: 09/2017 - 04/2018
+      company: '<a href="https://www.genua.de/home/cognitix">cognitix GmbH (now genua GmbH)</a>'
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        - Lead an international team of 4 Java developers, with one of them 4 days in home office
+        - Developed a system to process and visualize information from network traffic
+        - Coordination with the other teams and project management
+        - Planning and distribution of the tasks
+        - Configuration of the build system, code analysis with SonarQube and deployment with Docker
+      skills: |
+        - Spring Boot
+        - Apache Flink
+        - OpenAPI
+        - Lombok
+        - Maven
+        - GitLab CI
+        - SonarQube
+        - ElasticSearch
+        - Kibana
+        - Docker Compose
 
-          - Bullet point
-          - Bullet point
+    - role: Software Developer / DevOps Engineer
+      time: 02/2015 - 08/2017
+      company: '<a href="https://www.tarent.de">tarent solutions GmbH</a>'
+      details: |
+        - Worked on a legacy web application based on Velocity, with a Lucene backend and an
+          Oracle database in the background
+        - Harmonization of the code styles; code analysis with SonarQube, PMD, Checkstyle;
+          rework of the release cycle
+        - Support during a crisis in another project by doing logfile and performance analysis
+        - Extention of a Spring MVC web application
+        - Ongoing development of the product VerA.Web, management of the build system
+        - Rework of the deployment with Docker and Ansible
+        - Participation in the rework of the company wide build and Maven repository infrastruktur
+        - DevOps in a "Internet-of-Things" customer project, with the tasks
+          deployment, monitoring, load- and performance tests, problem analysis,
+          coordination with the customer and the producer of the software
+        - Participation in the focus topics Open Source and software quality
+      skills: |
+        - Nexus
+        - Maven
+        - PostgreSQL
+        - Ansible
+        - Docker
+        - Jenkins
+        - Shell
+        - Oracle DB
+        - Scrum
+        - Software quality
+        - SonarQube
+        - Selenium
+        - Monitoring
+
+    - role: Software Developer
+      time: 10/2014 - 12/2014
+      company: '<a href="https://www.aperto.de">Aperto AG</a>'
+      details: |
+        - Development of CMS (Magnolia) projects in a 7-head, agile team
+        - Adjustment of a Maven archetype, improvement of the build prozess and
+          implementation of Selenium tests
+      skills: |
+        - Maven
+        - Magnolia
+        - Bamboo
+        - Selenium
+
+    - role: Software Developer
+      time: 09/2011 - 09/2014
+      company: '<a href="https://www.pinguin.ag">Pinguin AG</a>'
+      details: |
+        - Worked in a Scrum-team of 5 with a PO and in the beginning also a designer
+        - Developed an Android app using Maven, Android Annotations, Actionbar Sherlock
+          and also four tenant versions of the app
+        - Implementation of the REST-backend in a Glassfish application server, with
+          Spring and Jersey
+        - Creation of OSGi-Server-Moduls as middleware between webservices, datenbase
+          (DB2) and other services using Spring and Hibernate
+        - Installation and integration of a search and logging server based on ElasticSearch
+          (Lucene) and Graylog2
+        - A lot of Test-Driven-Development (Junit, Mockito) and Pair Progamming
+        - Installation and operation of the build systems (Jenkins, Nexus, Sonar, Git),
+          support of the administrators
+        - Worked with a team in Thailand giving trainings, doing code reviews,
+          preparation of APIs and clarificationo of the design
+      skills: |
+        - Scrum
+        - Maven
+        - Jenkins
+        - ElasticSearch
+        - TDD
+        - Spring
+        - DB2
+        - OSGi
+        - Hibernate
+        - Android
+        - Monitoring
+        - Logging
+
+    - role: Software Developer
+      time: 05/2010 - 09/2011
+      company: '<a href="https://www.prodato.de">Prodato Integration Technologie GmbH</a>'
+      details: |
+        - Refactoring and cleanup of a process management software, from a
+          student project to a working product and also presentation at a customer
+        - Migration of projects to Maven
+        - Support in developing a JSF UI for an Oracle datawarehouse
+        - Short work in the SAP BW and BSP are at Siemens Healthcare
+      skills: |
+        - Maven
+        - Oracle DW
+        - JSF
+        - RDF
+
+    - role: Software Developer in the Development \& Research department
+      time: 09/2007 - 04/2010
+      company: '<a href="https://www.sigos.com">Keynote Sigos GmbH</a>'
+      details: |
+        - Development on a Swing Frontend, problem analysis and bug fixing
+        - Worked in a project team to connect a map frontend
+        - Migration of the backend from a TCL webserver to a Tomcat servlet
+          and in this step conversion respectively new implementation of parts of the
+          XML protocol by using unit tests to verify the integrity
+        - Introduction of tests with Junit, an automatic buildsystem, a test
+          converage overview, migration from Ant to Maven and the old code repository to Git
+      skills: |
+        - Swing
+        - Tomcat
+        - GIS
+        - MySQL
+        - Shell
+        - Maven
+        - Junit
+        - Git
 
 projects:
     title: Projects

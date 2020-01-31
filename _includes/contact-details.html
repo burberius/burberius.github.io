@@ -1,0 +1,28 @@
+<div class="contact-container container-block">
+  <h2 class="container-block-title">
+    Contact details
+  </h2>
+
+  <ul class="list-unstyled">
+
+  <li>Jens Oberender</li>
+  <li>troja.net</li>
+  <li>Nordplatz 2</li>
+  <li>04105 Leipzig</li>
+  <li>Germany</li>
+  <li>&nbsp;</li>
+
+  {% if sidebar.phone %}
+  <li class="phone"><i class="fas fa-phone"></i>
+    <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+  </li>
+  {% endif %}
+
+  {% if sidebar.email %}
+  <li class="email"><i class="fas fa-envelope"></i>
+    <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+  </li>
+  {% endif %}
+
+  </ul>
+</div>
