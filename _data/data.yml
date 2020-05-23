@@ -4,7 +4,7 @@ sidebar:
 
     # Profile information
     name: JENS OBERENDER
-    tagline: Senior Java Developer / DevOps Engineer
+    tagline: Freelance Java Developer / DevOps Engineer
     avatar: burberius.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -68,6 +68,27 @@ education:
       details:
 
 experiences:
+    - role: Freelance Java Developer
+      time: 02/2020 - 06/2020
+      company: '<a href="https://www.itsonix.eu">IT Sonix Custom Development GmbH</a>'
+      details: |
+        - Project to develop a calculation/invoice system for an energy company
+        - Mainly remote working in a five member Scrum team
+        - Refactoring of the compoents and implementation of new features
+        - Improvement of the automatic quality checks
+        - Documentation of the business logic and validation by corresponding tests
+      skills: |
+        - Spring Boot
+        - Maven
+        - Junit5
+        - TDD
+        - Gitlab CI
+        - Kibana
+        - Azure Service Bus
+        - Docker
+        - OWASP Dependency Check
+        - Spot Bugs
+
     - role: Senior Java Developer / DevOps Engineer
       time: 08/2019 - 11/2019
       company: '<a href="https://www.pamyra.de">Pamyra GmbH</a>'
