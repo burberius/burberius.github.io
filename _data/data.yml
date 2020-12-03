@@ -69,7 +69,28 @@ education:
 
 experiences:
     - role: Freelance Java Developer
-      time: 02/2020 - 06/2020
+      time: 08/2020 - 01/2021
+      company: '<a href="https://www.elinvar.de">Elinvar GmbH</a>'
+      details: |
+        - Improvement of microservices for data import and processing
+        - Implementation of a new service for the import and storage of asset documents
+        - Optimization of the build process regarding the code coverage
+        - Smooth migration of microservices to the Spring Boot Frameworkts
+      skills: |
+        - Spring Boot
+        - Gradle
+        - Junit5
+        - TDD
+        - Kubernetes
+        - Gitlab CI
+        - Kibana
+        - Docker
+        - Git
+        - Jira
+        - Confluence
+
+    - role: Freelance Java Developer
+      time: 02/2020 - 07/2020
       company: '<a href="https://www.itsonix.eu">IT Sonix Custom Development GmbH</a>'
       details: |
         - Project to develop a calculation/invoice system for an energy company
