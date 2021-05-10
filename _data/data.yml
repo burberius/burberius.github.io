@@ -69,6 +69,40 @@ education:
 
 experiences:
     - role: Freelance Java Developer
+      time: 04/2021 - today
+      company: '<a href="https://www.1und1.de">1&1 Mail & Media Development & Technology GmbH</a>'
+      details: |
+        - Further development of an existing web-application in a 8-people Scrum team
+        - Extension of the microservices with the help of TDD
+        - Compliance with the high coding-standards supported by Sonar
+      skills: |
+        - Spring Boot
+        - Junit5
+        - TDD
+        - Mockito
+        - Maven
+        - Tomcat
+        - Gitlab
+        - Jenkins
+        - Jira
+
+    - role: Freelance Java Developer
+      time: 02/2021 - 04/2021
+      company: '<a href="https://www.unbelievable-machine.com">The unbelievable Machine Company</a>'
+      details: |
+        - Increasing the test coverage of an existing web-application from 13\% to 82\%
+        - Update of the dependencies with the help of Maven and OWASP Dependency Check
+      skills: |
+        - Spring Boot
+        - Junit5
+        - TDD
+        - Mockito
+        - Maven
+        - Gitlab CI
+        - OWASP Dependency Check
+        - Jira
+
+    - role: Freelance Java Developer
       time: 08/2020 - 01/2021
       company: '<a href="https://www.elinvar.de">Elinvar GmbH</a>'
       details: |
