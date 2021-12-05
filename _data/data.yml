@@ -69,7 +69,26 @@ education:
 
 experiences:
     - role: Freelance Java Developer
-      time: 04/2021 - today
+      time: 07/2021 - today
+      company: '<a href="https://www.mediamarktsaturn.com">MediaMarktSaturn</a>'
+      details: |
+        - Extension of different microservices and deployment to Google Cloud (GCP)
+        - Update of Spring Boot and utilization of more GCP Features
+        - Loadtest of a service and optimization using Redis Cache for higher loads
+        - Introduction of tests and code-quality in the team
+      skills: |
+        - Spring Boot
+        - Junit5
+        - TDD
+        - Mockito
+        - Maven
+        - GCP
+        - PubSub
+        - GitHub
+        - Jira
+
+    - role: Freelance Java Developer
+      time: 04/2021 - 06/2021
       company: '<a href="https://www.1und1.de">1&1 Mail & Media Development & Technology GmbH</a>'
       details: |
         - Further development of an existing web-application in a 8-people Scrum team
@@ -403,7 +422,11 @@ skills:
         level: 60%
       - name: Jenkins Pipeline
         level: 60%
+      - name: GitHub Actions
+        level: 60%
       - name: GitLab CI
+        level: 60%
+      - name: Google Cloud Platform
         level: 60%
       - name: Kibana
         level: 60%
@@ -415,13 +438,9 @@ skills:
         level: 50%
       - name: Kubernetes
         level: 50%
-      - name: Google Public Cloud
-        level: 50%
       - name: openAPI
         level: 50%
       - name: JavaScript
-        level: 40%
-      - name: Angular
         level: 40%
       - name: Apache Flink
         level: 40%
