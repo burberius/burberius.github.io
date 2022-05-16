@@ -69,7 +69,27 @@ education:
 
 experiences:
     - role: Freelance Java Developer
-      time: 07/2021 - today
+      time: 03/2022 - today
+      company: '<a href="https://www.topsecret.com">Top Secret (will be revealed after completion)</a>'
+      details: |
+        - Upgrade of a monolithen to Java 11 and the latest Spring version
+        - Extension of a Micronaut based microservice
+        - Code reviews in a cross-functional team of eight
+        - Performance-analysis and suggestion of optimierung
+      skills: |
+        - Spring
+        - Junit5
+        - Mockito
+        - Maven
+        - Gradle
+        - Jenkins
+        - BitBucket
+        - Micronaut
+        - Tomcat
+        - GRPC
+
+    - role: Freelance Java Developer
+      time: 07/2021 - 02/2022
       company: '<a href="https://www.mediamarktsaturn.com">MediaMarktSaturn</a>'
       details: |
         - Extension of different microservices and deployment to Google Cloud (GCP)
