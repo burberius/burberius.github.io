@@ -69,8 +69,50 @@ education:
 
 experiences:
     - role: Freelance Java Developer
-      time: 03/2022 - today
-      company: '<a href="https://www.topsecret.com">Top Secret (will be revealed after completion)</a>'
+      time: 09/2022 - 04/2024
+      company: '<a href="https://www.bosch.com">Bosch</a>'
+      details: |
+        - Improving the data quality of an eMobility platform
+        - Analysing the data in MongoDB and various cleanups, partially with Python scripts
+        - Adaptions and optimizations of several microservices for the data processing
+        - Security scans and upgrades of the dependencies and JDK versions
+      skills: |
+        - Spring Boot
+        - Jenkins
+        - MongoDB
+        - Maven
+        - RabbitMQ
+        - SonarQube
+        - Nexus IQ
+        - Mockito
+        - Junit5
+        - Code Qualität
+        - Python
+        - Docker
+        - Vulnerability Scans
+        - Dependency Check/Tracker
+        - Kubernetes
+        - AWS
+
+    - role: Freelance Java Developer
+      time: 06/2022 - 11/2022
+      company: '<a href="https://www.zyres.com">Zyres</a>'
+      details: |
+        - Consulting on architecture topics in a new project
+        - Adjustments of the GitLab CI in combination with Qodana
+        - Optimization of the stream processing from RabbitMQ
+      skills: |
+        - Spring Boot
+        - GitLab CI
+        - Qodana
+        - Gradle
+        - RabbitMQ
+        - Junit5
+        - Mockito
+
+    - role: Freelance Java Developer
+      time: 03/2022 - 08/2022
+      company: '<a href="https://www.crossengage.io">CrossEngage</a>'
       details: |
         - Upgrade of a monolithen to Java 11 and the latest Spring version
         - Extension of a Micronaut based microservice
